@@ -8,7 +8,7 @@
 #define TEAM2 2
 
 typedef struct {
-    /*kcg_bool SignalFromTeam2;*/
+    kcg_bool SignalFromTeam2;
 } TEAM1_INPUT_INTERFACE;
 
 typedef struct {

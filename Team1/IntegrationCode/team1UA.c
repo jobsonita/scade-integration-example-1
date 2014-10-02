@@ -94,7 +94,7 @@ void receiveMessage(INTERFACE_MESSAGE message) {
         switch (message.from) {
         case TEAM2:
             printf("Message from TEAM2 to TEAM1 \n");
-            /*ua_inputs.SignalFromTeam2 = input.SignalFromTeam2;*/
+            ua_inputs.SignalFromTeam2 = input.SignalFromTeam2;
             break;
         default:
             printf("Received packet from unknown sender (%d) !\n", message.from);
