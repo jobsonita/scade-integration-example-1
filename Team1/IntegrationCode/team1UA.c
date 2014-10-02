@@ -208,7 +208,7 @@ void sendMessagesToPeers() {
 }
 
 void clear_ua_inputs() {
-    /*ua_inputs.SignalFromTeam2 = FALSE;*/
+    ua_inputs.SignalFromTeam2 = FALSE;
 }
 
 void usage() {
