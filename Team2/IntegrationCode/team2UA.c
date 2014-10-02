@@ -94,7 +94,7 @@ void receiveMessage(INTERFACE_MESSAGE message) {
         switch (message.from) {
         case TEAM1:
             printf("Message from TEAM1 to TEAM2 \n");
-            /*ua_inputs.SignalFromTeam1 = input.SignalFromTeam1;*/
+            ua_inputs.SignalFromTeam1 = input.SignalFromTeam1;
             break;
         default:
             printf("Received packet from unknown sender (%d) !\n", message.from);
@@ -208,7 +208,7 @@ void sendMessagesToPeers() {
 }
 
 void clear_ua_inputs() {
-    /*ua_inputs.SignalFromTeam1 = FALSE;*/
+    ua_inputs.SignalFromTeam1 = FALSE;
 }
 
 void usage() {

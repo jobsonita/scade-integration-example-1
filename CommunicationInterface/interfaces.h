@@ -12,7 +12,7 @@ typedef struct {
 } TEAM1_INPUT_INTERFACE;
 
 typedef struct {
-    /*kcg_bool SignalFromTeam1;*/
+    kcg_bool SignalFromTeam1;
 } TEAM2_INPUT_INTERFACE;
 
 typedef union {
