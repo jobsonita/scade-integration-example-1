@@ -1,0 +1,4 @@
+CC = gcc
+OS_CFLAGS   = 
+OS_LIBS     = -lwsock32
+OS_EXE_EXT  =.exe
