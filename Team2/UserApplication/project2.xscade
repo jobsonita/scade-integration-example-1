@@ -15,7 +15,7 @@
 						<ed:Variable oid="!ed/2151/7798/1194/542d653149a3"/>
 					</pragmas>
 				</Variable>
-				<Variable name="SignalFromTeam2">
+				<Variable name="SignalFromTeam1">
 					<type>
 						<NamedType>
 							<type>
@@ -53,7 +53,7 @@
 						<ed:Variable oid="!ed/2152/7798/1194/542d653121b1"/>
 					</pragmas>
 				</Variable>
-				<Variable name="SignalToTeam2">
+				<Variable name="SignalToTeam1">
 					<type>
 						<NamedType>
 							<type>
@@ -201,10 +201,10 @@
 				</Variable>
 			</locals>
 			<data>
-				<!-- SignalToTeam2 = _L8; -->
+				<!-- SignalToTeam1 = _L8; -->
 				<Equation>
 					<lefts>
-						<VariableRef name="SignalToTeam2"/>
+						<VariableRef name="SignalToTeam1"/>
 					</lefts>
 					<right>
 						<IdExpression>
@@ -419,7 +419,7 @@
 						<ed:Equation oid="!ed/2166/7798/1194/542d653144c5"/>
 					</pragmas>
 				</Equation>
-				<!-- _L9 = SignalFromTeam2; -->
+				<!-- _L9 = SignalFromTeam1; -->
 				<Equation>
 					<lefts>
 						<VariableRef name="_L9"/>
@@ -427,7 +427,7 @@
 					<right>
 						<IdExpression>
 							<path>
-								<ConstVarRef name="SignalFromTeam2"/>
+								<ConstVarRef name="SignalFromTeam1"/>
 							</path>
 						</IdExpression>
 					</right>
