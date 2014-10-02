@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MappingFile>
+	 	<operatorMappings>
+		<OperatorMapping name="project1" oid="!ed/20de/2DD0/12BC/542d5d1079db">
+			<mappingItems>
+				<MappingItem>
+					<output>
+						<A661_NOTIFY_WIDGET_EVENT name="Notify" type="enum {A661_FALSE, A661_TRUE}" pathname="..\DefinitionFile\project1.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="1" ParameterIdent="A661_EVT_SELECTION" WidgetType="PushButton" WidgetName="PushButton">
+							<A661Data>
+								<Notify/>
+							</A661Data>
+						</A661_NOTIFY_WIDGET_EVENT>
+					</output>
+					<inputs>
+						<Variable name="SignalFromButton" type="bool" oid="!ed/2196/2F79/1614/542d60f529fa" instancepath="project1/"/>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Variable name="ReqLayerActive" type="bool" oid="!ed/2160/2F79/1614/542d60bd38e4" instancepath="project1/"/>
+					</output>
+					<inputs>
+						<A661_REQ_LAYER_ACTIVE name="Emit" type="enum {A661_FALSE, A661_TRUE}" pathname="..\DefinitionFile\project1.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="-1" ParameterIdent="A661_REQ_LAYER_ACTIVE">
+							<A661Data>
+								<Emit/>
+							</A661Data>
+						</A661_REQ_LAYER_ACTIVE>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Variable name="ReqLayerVisible" type="bool" oid="!ed/215f/2F79/1614/542d60bd1b9e" instancepath="project1/"/>
+					</output>
+					<inputs>
+						<A661_REQ_LAYER_VISIBLE name="Emit" type="enum {A661_FALSE, A661_TRUE}" pathname="..\DefinitionFile\project1.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="-1" ParameterIdent="A661_REQ_LAYER_VISIBLE">
+							<A661Data>
+								<Emit/>
+							</A661Data>
+						</A661_REQ_LAYER_VISIBLE>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Variable name="EmitToCDS" type="bool" oid="!ed/2199/2F79/1614/542d60f5df5" instancepath="project1/"/>
+					</output>
+					<inputs>
+						<A661_CMD_SET_PARAMETER name="Emit" type="enum {A661_FALSE, A661_TRUE}" pathname="..\DefinitionFile\project1.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="3" ParameterIdent="A661_FILL_INDEX" WidgetType="GpArcEllipse" WidgetName="GpArcEllipse">
+							<A661Data>
+								<Emit/>
+							</A661Data>
+						</A661_CMD_SET_PARAMETER>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Variable name="SignalToLED" type="int" oid="!ed/2198/2F79/1614/542d60f5464c" instancepath="project1/"/>
+					</output>
+					<inputs>
+						<A661_CMD_SET_PARAMETER name="FillIndex" type="uchar" pathname="..\DefinitionFile\project1.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="3" ParameterIdent="A661_FILL_INDEX" WidgetType="GpArcEllipse" WidgetName="GpArcEllipse">
+							<A661Data>
+								<DataField value="FillIndex"/>
+							</A661Data>
+						</A661_CMD_SET_PARAMETER>
+					</inputs>
+				</MappingItem>
+			</mappingItems>
+		</OperatorMapping>
+	</operatorMappings>
+</MappingFile>
