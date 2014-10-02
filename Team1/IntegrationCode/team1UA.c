@@ -200,7 +200,7 @@ void sendMessagesToPeers() {
     message.from = TEAM1;
     TEAM2_INPUT_INTERFACE *output = &(message.input_interface.team2_input_interface);
     
-    /*output->SignalFromTeam1 = ua_outputs.SignalToTeam2;*/
+    output->SignalFromTeam1 = ua_outputs.SignalToTeam2;
     
     sendto(to_outside_socket, (char *) &message, sizeof(message), MSG_WAIT_OPTION, (struct sockaddr *) &to_outside_address, sizeof(to_outside_address));
 
