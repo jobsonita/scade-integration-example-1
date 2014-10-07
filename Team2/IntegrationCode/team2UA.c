@@ -20,7 +20,7 @@ void receiveMessage(FRAMEWORK_MESSAGE message) {
         switch (message.from) {
         case TEAM1:
             printf("Received: Message from TEAM1 to TEAM2 \n");
-            /*ua_inputs.SignalFromTeam1 = input.SignalFromTeam1;*/
+            ua_inputs.SignalFromTeam1 = input.SignalFromTeam1;
             break;
         }
     }
