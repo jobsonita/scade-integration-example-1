@@ -32,7 +32,7 @@ void buildMessage(FRAMEWORK_MESSAGE *message) {
     case TEAM1:
         printf("Sent: Message from TEAM2 to TEAM1 \n");
         TEAM1_INPUT_INTERFACE *output = &(message->input_interface.team1_input_interface);
-        /*output->SignalFromTeam2 = ua_outputs.SignalToTeam1;*/
+        output->SignalFromTeam2 = ua_outputs.SignalToTeam1;
     }
 }
 
